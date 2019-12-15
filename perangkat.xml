@@ -1,0 +1,28 @@
+<odoo>
+	<data>
+
+		<record id="view_manajemen_perangkat_tree" model="ir.ui.view">
+			<field name="name">manajemen.perangkat.tree</field>
+			<field name="model">manajemen.perangkat</field>
+			<field name="type">tree</field>
+			<field name="priority" eval="8" />
+
+			<field name="arch" type="xml">
+				<tree string="Perangkat DC">
+					<field name="name" />
+					<field name="no" />
+					<field name="pemilik" />
+					<field name="posisi" />
+					<field name="noreg" />
+					<field name="merk" />
+					<field name="spesifikasi" />
+					<field name="fungsi" />
+					<field name="visit" />
+					<field name="note" />
+					<field name="aksi" />
+				</tree>
+			</field>
+		</record>
+
+	</data>
+</odoo>

@@ -1,0 +1,27 @@
+<odoo>
+	<data>
+
+		<record id="view_manajemen_datauser_tree" model="ir.ui.view">
+			<field name="name">manajemen.datauser.tree</field>
+			<field name="model">manajemen.datauser</field>
+			<field name="type">tree</field>
+			<field name="priority" eval="8" />
+
+			<field name="arch" type="xml">
+				<tree string="Data User">
+					<field name="no" />
+					<field name="username" />
+					<field name="identitas" />
+					<field name="namalengkap" />
+					<field name="level" />
+					<field name="blokir" />
+					<field name="pemandu" />
+					<field name="pengelola" />
+					<field name="tempadmin" />
+					<field name="aksi" />
+				</tree>
+			</field>
+		</record>
+
+	</data>
+</odoo>

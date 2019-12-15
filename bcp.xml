@@ -1,0 +1,20 @@
+<odoo>
+	<data>
+
+		<record id="view_manajemen_bcp_tree" model="ir.ui.view">
+			<field name="name">manajemen.bcp.tree</field>
+			<field name="model">manajemen.bcp</field>
+			<field name="type">tree</field>
+			<field name="priority" eval="8" />
+
+			<field name="arch" type="xml">
+				<tree string="BCP">
+					<field name="name" />
+					<field name="no" />
+					
+				</tree>
+			</field>
+		</record>
+
+	</data>
+</odoo>

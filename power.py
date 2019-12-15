@@ -1,0 +1,8 @@
+from odoo import api, fields, models, _
+
+class Power(models.Model):
+	_name = "manajemen.power"
+	_rec_name = "name"
+
+	name = fields.Char("Name", required=True)
+	no = fields.Text(string="No", required=False, )

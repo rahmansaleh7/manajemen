@@ -1,0 +1,20 @@
+<odoo>
+	<data>
+
+		<record id="view_manajemen_subunit_tree" model="ir.ui.view">
+			<field name="name">manajemen.subunit.tree</field>
+			<field name="model">manajemen.subunit</field>
+			<field name="type">tree</field>
+			<field name="priority" eval="8" />
+
+			<field name="arch" type="xml">
+				<tree string="Sub Unit">
+					<field name="name" />
+					<field name="no" />
+					
+				</tree>
+			</field>
+		</record>
+
+	</data>
+</odoo>

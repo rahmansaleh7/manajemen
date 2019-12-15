@@ -1,0 +1,20 @@
+<odoo>
+	<data>
+
+		<record id="view_manajemen_lan_tree" model="ir.ui.view">
+			<field name="name">manajemen.lan.tree</field>
+			<field name="model">manajemen.lan</field>
+			<field name="type">tree</field>
+			<field name="priority" eval="8" />
+
+			<field name="arch" type="xml">
+				<tree string="Power Distribution">
+					<field name="name" />
+					<field name="no" />
+					
+				</tree>
+			</field>
+		</record>
+
+	</data>
+</odoo>
