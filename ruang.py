@@ -4,5 +4,8 @@ class Ruang(models.Model):
 	_name = "manajemen.ruang"
 	_rec_name = "name"
 
-	name = fields.Char("Name", required=True)
-	no = fields.Text(string="No", required=False, )
+	no = fields.Char(string="No", required=True)
+	lokasi = fields.Text(string="Lokasi", required=False, )
+	noruang = fields.Text(string="No Ruang", required=False, )
+	namaruang = fields.Text(string="Nama Ruang", required=False, )
+	aksi = fields.Text(string="Aksi", required=False, )

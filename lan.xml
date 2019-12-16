@@ -8,10 +8,18 @@
 			<field name="priority" eval="8" />
 
 			<field name="arch" type="xml">
-				<tree string="Power Distribution">
-					<field name="name" />
+				<tree string="Lan Distribution">
 					<field name="no" />
-					
+					<field name="ruang" />
+					<field name="posisi" />
+					<field name="noregsn" />
+					<field name="merk" />
+					<field name="fungsi" />
+					<field name="koneksilan" />
+					<field name="distribusi" />
+					<field name="visit" />
+					<field name="note" />
+					<field name="aksi" />
 				</tree>
 			</field>
 		</record>

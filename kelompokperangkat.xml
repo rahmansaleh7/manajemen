@@ -8,9 +8,12 @@
 			<field name="priority" eval="8" />
 
 			<field name="arch" type="xml">
-				<tree string="Kode Perangkat">
-					<field name="name" />
+				<tree string="Kelompok Perangkat">
 					<field name="no" />
+					<field name="kodegolperangkat" />
+					<field name="nokelperangkat" />
+					<field name="namakelperangkat" />
+					<field name="aksi" />
 					
 				</tree>
 			</field>

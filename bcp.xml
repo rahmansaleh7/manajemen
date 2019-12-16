@@ -9,9 +9,13 @@
 
 			<field name="arch" type="xml">
 				<tree string="BCP">
-					<field name="name" />
 					<field name="no" />
-					
+					<field name="code" />
+					<field name="bppname" />
+					<field name="dataisued" />
+					<field name="datareview" />
+					<field name="datarevised" />
+					<field name="detail" />					
 				</tree>
 			</field>
 		</record>

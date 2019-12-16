@@ -4,5 +4,8 @@ class Berita(models.Model):
 	_name = "manajemen.berita"
 	_rec_name = "name"
 
-	name = fields.Char("Name", required=True)
-	no = fields.Text(string="No", required=False, )
+	no = fields.Char(string="No", required=True)
+	judul = fields.Text(string="Judul", required=False, )
+	tglposting = fields.Text(string="Tanggal Posting", required=False, )
+	publish = fields.Text(string="Publish", required=False, )
+	aksi = fields.Text(string="Aksi", required=False, )

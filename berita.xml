@@ -9,9 +9,11 @@
 
 			<field name="arch" type="xml">
 				<tree string="Berita">
-					<field name="name" />
 					<field name="no" />
-					
+					<field name="judul" />
+					<field name="tglposting" />
+					<field name="publish" />
+					<field name="aksi" />					
 				</tree>
 			</field>
 		</record>

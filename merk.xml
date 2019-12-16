@@ -9,8 +9,9 @@
 
 			<field name="arch" type="xml">
 				<tree string="Merk">
-					<field name="name" />
 					<field name="no" />
+					<field name="merk" />
+					<field name="aksi" />
 					
 				</tree>
 			</field>
