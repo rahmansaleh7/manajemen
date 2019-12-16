@@ -2,7 +2,6 @@ from odoo import api, fields, models, _
 
 class Datauser(models.Model):
 	_name = "manajemen.datauser"
-	# _rec_name = "name"
 
 	no = fields.Text(string="No", required=False, )
 	username = fields.Text(string="Username", required=False, )
