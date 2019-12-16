@@ -12,7 +12,7 @@
 					<field name="no" />
 					<field name="nounit" />
 					<field name="namaunit" />
-					<field name="aksi" />					
+					<field name="aksi" />
 				</tree>
 			</field>
 		</record>

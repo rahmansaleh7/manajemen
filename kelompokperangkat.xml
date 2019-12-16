@@ -13,7 +13,7 @@
 					<field name="kodegolperangkat" />
 					<field name="nokelperangkat" />
 					<field name="namakelperangkat" />
-					<field name="aksi" />					
+					<field name="aksi" />	
 				</tree>
 			</field>
 		</record>
