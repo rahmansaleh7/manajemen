@@ -8,10 +8,11 @@
 			<field name="priority" eval="8" />
 
 			<field name="arch" type="xml">
-				<tree string="Data User">
-					<field name="name" />
+				<tree string="Lokasi">
 					<field name="no" />
-					
+					<field name="nolokasi" />
+					<field name="lokasi" />
+					<field name="aksi" />
 				</tree>
 			</field>
 		</record>

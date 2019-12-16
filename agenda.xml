@@ -9,9 +9,11 @@
 
 			<field name="arch" type="xml">
 				<tree string="Agenda">
-					<field name="name" />
 					<field name="no" />
-					
+					<field name="tema" />
+					<field name="tglmulai" />
+					<field name="tglselesai" />
+					<field name="aksi" />					
 				</tree>
 			</field>
 		</record>
