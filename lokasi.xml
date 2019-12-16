@@ -13,7 +13,6 @@
 					<field name="nolokasi" />
 					<field name="lokasi" />
 					<field name="aksi" />
-					
 				</tree>
 			</field>
 		</record>

@@ -11,10 +11,10 @@
 				<tree string="BCP">
 					<field name="no" />
 					<field name="code" />
-					<field name="bppname" />
-					<field name="dataisued" />
-					<field name="datareview" />
-					<field name="datarevised" />
+					<field name="bcpname" />
+					<field name="dateisued" />
+					<field name="datereview" />
+					<field name="daterevised" />
 					<field name="detail" />					
 				</tree>
 			</field>

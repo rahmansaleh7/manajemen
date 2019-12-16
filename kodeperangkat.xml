@@ -13,7 +13,6 @@
 					<field name="noperangkat" />
 					<field name="golperangkat" />
 					<field name="aksi" />
-					
 				</tree>
 			</field>
 		</record>

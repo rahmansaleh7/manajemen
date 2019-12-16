@@ -8,12 +8,12 @@
 			<field name="priority" eval="8" />
 
 			<field name="arch" type="xml">
-				<tree string="Lan Distribution">
+				<tree string="LAN Distribution">
 					<field name="no" />
 					<field name="ruang" />
 					<field name="posisi" />
 					<field name="noregsn" />
-					<field name="merk" />
+					<field name="merkmodel" />
 					<field name="fungsi" />
 					<field name="koneksilan" />
 					<field name="distribusi" />

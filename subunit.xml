@@ -10,11 +10,10 @@
 			<field name="arch" type="xml">
 				<tree string="Sub Unit">
 					<field name="no" />
-					<field name="kodegolperangkat" />
+					<field name="kodeperangkat" />
 					<field name="nosubunit" />
 					<field name="namasubunit" />
-					<field name="aksi" />
-					
+					<field name="aksi" />					
 				</tree>
 			</field>
 		</record>

@@ -2,7 +2,6 @@ from odoo import api, fields, models, _
 
 class Kelompokperangkat(models.Model):
 	_name = "manajemen.kelompokperangkat"
-	_rec_name = "name"
 
 	no = fields.Char(string="No", required=True)
 	kodegolperangkat = fields.Text(string="Kode/Golongan Perangkat", required=False, )

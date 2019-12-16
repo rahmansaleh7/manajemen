@@ -13,13 +13,12 @@
 					<field name="skpd" />
 					<field name="ruangposisi" />
 					<field name="noregsn" />
-					<field name="merk" />
+					<field name="merkmodel" />
 					<field name="spesifikasi" />
 					<field name="fungsi" />
 					<field name="visit" />
 					<field name="note" />
-					<field name="aksi" />
-					
+					<field name="aksi" />					
 				</tree>
 			</field>
 		</record>

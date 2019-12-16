@@ -2,13 +2,12 @@ from odoo import api, fields, models, _
 
 class Perangkatnondc(models.Model):
 	_name = "manajemen.perangkatnondc"
-	_rec_name = "name"
 
 	no = fields.Char(string="No", required=True)
-	skpd = fields.Text(string="SKPD/UKPD/Pemilik", required=False, )
-	ruangposisi = fields.Text(string="Ruang / Posisi", required=False, )
-	noregsn = fields.Text(string="No Reg / SN", required=False, )
-	merk = fields.Text(string="Merk / Model", required=False, )
+	skpd = fields.Text(string="SKPD/UKDP/Pemilik", required=False, )
+	ruangposisi = fields.Text(string="Ruang/Posisi", required=False, )
+	noregsn = fields.Text(string="No Reg/SN", required=False, )
+	merkmodel = fields.Text(string="Merk/Model", required=False, )
 	spesifikasi = fields.Text(string="Spesifikasi", required=False, )
 	fungsi = fields.Text(string="Fungsi", required=False, )
 	visit = fields.Text(string="Visit", required=False, )

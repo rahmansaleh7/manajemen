@@ -13,7 +13,6 @@
 					<field name="nounit" />
 					<field name="namaunit" />
 					<field name="aksi" />
-					
 				</tree>
 			</field>
 		</record>

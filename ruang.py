@@ -2,7 +2,6 @@ from odoo import api, fields, models, _
 
 class Ruang(models.Model):
 	_name = "manajemen.ruang"
-	_rec_name = "name"
 
 	no = fields.Char(string="No", required=True)
 	lokasi = fields.Text(string="Lokasi", required=False, )

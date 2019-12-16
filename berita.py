@@ -2,7 +2,6 @@ from odoo import api, fields, models, _
 
 class Berita(models.Model):
 	_name = "manajemen.berita"
-	_rec_name = "name"
 
 	no = fields.Char(string="No", required=True)
 	judul = fields.Text(string="Judul", required=False, )

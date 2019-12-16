@@ -13,7 +13,7 @@
 					<field name="judul" />
 					<field name="tglposting" />
 					<field name="publish" />
-					<field name="aksi" />					
+					<field name="aksi" />
 				</tree>
 			</field>
 		</record>
