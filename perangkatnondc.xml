@@ -9,9 +9,16 @@
 
 			<field name="arch" type="xml">
 				<tree string="Perangkat Non DC">
-					<field name="name" />
 					<field name="no" />
-					
+					<field name="skpd" />
+					<field name="ruangposisi" />
+					<field name="noregsn" />
+					<field name="merkmodel" />
+					<field name="spesifikasi" />
+					<field name="fungsi" />
+					<field name="visit" />
+					<field name="note" />
+					<field name="aksi" />					
 				</tree>
 			</field>
 		</record>

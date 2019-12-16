@@ -9,9 +9,10 @@
 
 			<field name="arch" type="xml">
 				<tree string="Unit">
-					<field name="name" />
 					<field name="no" />
-					
+					<field name="nounit" />
+					<field name="namaunit" />
+					<field name="aksi" />					
 				</tree>
 			</field>
 		</record>

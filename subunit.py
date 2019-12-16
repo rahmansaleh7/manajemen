@@ -2,7 +2,9 @@ from odoo import api, fields, models, _
 
 class Subunit(models.Model):
 	_name = "manajemen.subunit"
-	_rec_name = "name"
 
-	name = fields.Char("Name", required=True)
-	no = fields.Text(string="No", required=False, )
+	no = fields.Char(string="No", required=True)
+	kodeperangkat = fields.Text(string="Kode/Golongan perangkat", required=False, )
+	nosubunit = fields.Text(string="No Sub Unit", required=False, )
+	namasubunit = fields.Text(string="Nama Sub Unit", required=False, )
+	aksi = fields.Text(string="Aksi", required=False, )

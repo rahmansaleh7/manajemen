@@ -8,9 +8,12 @@
 			<field name="priority" eval="8" />
 
 			<field name="arch" type="xml">
-				<tree string="Data Ruang">
-					<field name="name" />
+				<tree string="Ruang">
 					<field name="no" />
+					<field name="lokasi" />
+					<field name="noruang" />
+					<field name="namaruang" />
+					<field name="aksi" />
 					
 				</tree>
 			</field>

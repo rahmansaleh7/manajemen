@@ -9,9 +9,17 @@
 
 			<field name="arch" type="xml">
 				<tree string="Power Distribution">
-					<field name="name" />
 					<field name="no" />
-					
+					<field name="ruang" />
+					<field name="posisi" />
+					<field name="noregsn" />
+					<field name="merkmodeltype" />
+					<field name="fungsi" />
+					<field name="koneksilistrik" />
+					<field name="distribusi" />
+					<field name="visit" />
+					<field name="note" />
+					<field name="aksi" />					
 				</tree>
 			</field>
 		</record>

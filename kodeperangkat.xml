@@ -9,9 +9,10 @@
 
 			<field name="arch" type="xml">
 				<tree string="Kode Perangkat">
-					<field name="name" />
 					<field name="no" />
-					
+					<field name="noperangkat" />
+					<field name="golperangkat" />
+					<field name="aksi" />
 				</tree>
 			</field>
 		</record>
