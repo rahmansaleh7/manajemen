@@ -13,7 +13,11 @@
 					<field name="kodegolperangkat" />
 					<field name="nokelperangkat" />
 					<field name="namakelperangkat" />
+<<<<<<< HEAD
 					<field name="aksi" />	
+=======
+					<field name="aksi" />					
+>>>>>>> manajemen_edit
 				</tree>
 			</field>
 		</record>

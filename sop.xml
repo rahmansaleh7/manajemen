@@ -15,7 +15,7 @@
 					<field name="dataisued" />
 					<field name="datareview" />
 					<field name="datarevised" />
-					<field name="detail" />
+					<field name="detail" />					
 				</tree>
 			</field>
 		</record>
