@@ -5,5 +5,6 @@ class Lokasi(models.Model):
 
 	no = fields.Char(string="No", required=True)
 	nolokasi = fields.Text(string="No Lokasi", required=False, )
-	lokasi = fields.Text(string="Lokasi", required=False, )
+	name = fields.Char(string="Lokasi", 
+							required=True, )
 	aksi = fields.Text(string="Aksi", required=False, )

@@ -4,5 +4,5 @@ class Merk(models.Model):
 	_name = "manajemen.merk"
 
 	no = fields.Char(string="No", required=True)
-	merk = fields.Text(string="Merk", required=False, )
+	name = fields.Char(string="Merk", required=True, )
 	aksi = fields.Text(string="Aksi", required=False, )

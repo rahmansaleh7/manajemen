@@ -4,7 +4,9 @@ class Kelompokperangkat(models.Model):
 	_name = "manajemen.kelompokperangkat"
 
 	no = fields.Char(string="No", required=True)
-	kodegolperangkat = fields.Text(string="Kode/Golongan Perangkat", required=False, )
+	kodegolperangkat = fields.Many2one(comodel_name="manajemen.kodeperangkat",
+										string="Kode/Golongan Perangkat", 
+										required=True, )
 	nokelperangkat = fields.Text(string="No Kelompok Perangkat", required=False, )
-	namakelperangkat = fields.Text(string="Nama Kelompok Perangkat", required=False, )
+	name = fields.Char(string="Nama Kelompok Perangkat", required=True, )
 	aksi = fields.Text(string="Aksi", required=False, )

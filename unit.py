@@ -5,5 +5,5 @@ class Unit(models.Model):
 
 	no = fields.Char(string="No", required=True)
 	nounit = fields.Text(string="No Unit", required=False, )
-	namaunit = fields.Text(string="Nama Unit", required=False, )
+	name = fields.Char(string="Nama Unit", required=True, )
 	aksi = fields.Text(string="Aksi", required=False, )

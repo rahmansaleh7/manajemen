@@ -12,7 +12,7 @@
 					<field name="no" />
 					<field name="lokasi" />
 					<field name="noruang" />
-					<field name="namaruang" />
+					<field name="name" />
 					<field name="aksi" />
 					
 				</tree>
