@@ -4,7 +4,6 @@ class Lokasi(models.Model):
 	_name = "manajemen.lokasi"
 
 	no = fields.Char(string="No", required=True)
-	nolokasi = fields.Text(string="No Lokasi", required=False, )
+	nolokasi = fields.Char(string="No Lokasi", required=False, )
 	name = fields.Char(string="Lokasi", 
 							required=True, )
-	aksi = fields.Text(string="Aksi", required=False, )

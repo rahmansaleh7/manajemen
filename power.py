@@ -3,11 +3,17 @@ from odoo import api, fields, models, _
 class Power(models.Model):
 	_name = "manajemen.power"
 
-	no = fields.Char(string="No", required=True)
-	ruang = fields.Text(string="Ruang", required=False, )
-	posisi = fields.Text(string="Posisi", required=False, )
+	name = fields.Char(string="No", required=True)
+	ruang = fields.Many2one(comodel_name="manajemen.ruang",
+							string="Ruang", 
+							required=True, )
+	posisi = fields.Many2one(comodel_name="manajemen.subruang",
+							string="Posisi", 
+							required=True, )
 	noregsn = fields.Text(string="No Reg/SN", required=False, )
-	merkmodeltype = fields.Text(string="Merk/Model/Type", required=False, )
+	merkmodeltype = fields.Many2one(comodel_name="manajemen.merk",
+									string="Merk/Model/Type", 
+									required=False, )
 	fungsi = fields.Text(string="Fungsi", required=False, )
 	koneksilistrik = fields.Text(string="Koneksi Listrik", required=False, )
 	distribusi = fields.Text(string="Distribusi", required=False, )

@@ -1,6 +1,7 @@
 <odoo>
 	<data>
 
+		<!-- Tree Perangkat -->
 		<record id="view_manajemen_perangkat_tree" model="ir.ui.view">
 			<field name="name">manajemen.perangkat.tree</field>
 			<field name="model">manajemen.perangkat</field>
@@ -10,7 +11,6 @@
 			<field name="arch" type="xml">
 				<tree string="Perangkat DC">
 					<field name="name" />
-					<field name="no" />
 					<field name="pemilik" />
 					<field name="posisi" />
 					<field name="noreg" />
@@ -19,8 +19,66 @@
 					<field name="fungsi" />
 					<field name="visit" />
 					<field name="note" />
-					<field name="aksi" />
 				</tree>
+			</field>
+		</record>
+
+		<!-- Form Perangkat -->
+		<record id="view_manajemen_perangkat_form" model="ir.ui.view">
+			<field name="name">manajemen.perangkat.form</field>
+			<field name="model">manajemen.perangkat</field>
+			<field name="type">form</field>
+			<field name="priority" eval="8" />
+
+			<field name="arch" type="xml">
+				<form string="Perangkat DC">
+					<sheet>
+						<div class="oe_title">
+							<label for="pemilik" class="oe_edit_only"
+											string="SKPD/UKPD/ Pemilik/ Penanggung Jawab"/>
+							<h1><field name="pemilik"/></h1>
+						</div>
+						<group>
+							<group>
+								<field name="name" />
+								<field name="fungsi" />
+								<field name="visit" />
+							</group>
+
+							<group>
+								<field name="noreg" />
+								<field name="posisi" />
+								<field name="merk" />
+							</group>
+						</group>
+
+						<notebook>
+							<page string="Spesifikasi">
+								<field name="spesifikasi" />
+							</page>
+
+							<page string="Note">
+								<field name="note" />
+							</page>
+
+							<!-- <page string="Kunjungan">
+								<field name="tiket_ids" />
+									<tree string="Kunjungan">
+										<field name="name" />
+										<field name="tglberkunjung" />
+										<field name="tiket" />
+										<field name="tujuan" />
+										<field name="keterangan" />
+										<field name="status" />
+									</tree>
+							</page> -->
+						</notebook>
+							
+					</sheet>
+				</form>
+
+				
+
 			</field>
 		</record>
 

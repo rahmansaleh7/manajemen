@@ -27,7 +27,8 @@
 						"subunit.xml",
 						"kodeperangkat.xml",
 						"kelompokperangkat.xml",
-						"ruang.xml"
+						"ruang.xml",
+						"visit.xml",
 					],
 	"installable"	: True,
 	"auto_install"	: False,

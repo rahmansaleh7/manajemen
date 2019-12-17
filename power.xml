@@ -9,7 +9,7 @@
 
 			<field name="arch" type="xml">
 				<tree string="Power Distribution">
-					<field name="no" />
+					<field name="name" />
 					<field name="ruang" />
 					<field name="posisi" />
 					<field name="noregsn" />

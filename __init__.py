@@ -15,3 +15,4 @@ from . import unit
 from . import subunit
 from . import kodeperangkat
 from . import kelompokperangkat
+from . import visit

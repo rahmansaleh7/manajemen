@@ -3,13 +3,26 @@ from odoo import api, fields, models, _
 class Datauser(models.Model):
 	_name = "manajemen.datauser"
 
-	no = fields.Text(string="No", required=False, )
-	username = fields.Text(string="Username", required=False, )
-	identitas = fields.Text(string="Identitas", required=False, )
+	no = fields.Char(string="No", required=False, )
+	name = fields.Char(string="Username", required=False, )
+	identitas = fields.Char(string="Identitas", required=False, )
 	namalengkap = fields.Char(string="Nama Lengkap", required=True)
-	level = fields.Text(string="Level", required=False, )
-	blokir = fields.Text(string="Blokir", required=False, )
-	pemandu = fields.Text(string="Pemandu", required=False, )
-	pengelola = fields.Text(string="Pengelola", required=False, )
-	tempadmin = fields.Text(string="Temp Admin", required=False, )
-	aksi = fields.Text(string="Aksi", required=False, )
+	level = fields.Char(string="Level", required=False, )
+	blokir = fields.Selection(string="Blokir",
+							selection=[('Y','Yes'),('N','No')],
+							default='N', 
+							required=True, )
+	pemandu = fields.Selection(string="Pemandu",
+							selection=[('Y','Yes'),('N','No')],
+							required=False, )
+	pengelola = fields.Selection(string="Pengelola",
+							selection=[('Y','Yes'),('N','No')],
+							default='N',
+							required=True, )
+	tempadmin = fields.Selection(string="Temp Admin",
+							selection=[('Y','Yes'),('N','No')],
+							required=False, )
+
+
+	# docberitapublish = fields.Selection(string="Publish",
+	# 	selection=[('Y','Yes'),('N','No')],default='N',required=True)

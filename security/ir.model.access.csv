@@ -16,3 +16,4 @@ unit_manager,unit_manager,model_manajemen_unit,,1,1,1,1
 subunit_manager,subunit_manager,model_manajemen_subunit,,1,1,1,1
 kodeperangkat_manager,kodeperangkat_manager,model_manajemen_kodeperangkat,,1,1,1,1
 kelompokperangkat_manager,kelompokperangkat_manager,model_manajemen_kelompokperangkat,,1,1,1,1
+visit_manager,visit_manager,model_manajemen_visit,,1,1,1,1

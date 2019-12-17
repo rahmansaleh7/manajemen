@@ -7,6 +7,5 @@ class Ruang(models.Model):
 	lokasi = fields.Many2one(comodel_name="manajemen.lokasi",
 							string="Lokasi", 
 							required=True, )
-	noruang = fields.Text(string="No Ruang", required=False, )
+	noruang = fields.Char(string="No Ruang", required=False, )
 	name = fields.Char(string="Nama Ruang", required=True, )
-	aksi = fields.Text(string="Aksi", required=False, )
